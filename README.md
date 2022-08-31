@@ -23,7 +23,7 @@
 - Attr-Selectors
 - Functions
 - Gradients
-- Shadows
+- Shadows - DONE
 - Transforms
 - Transitions
 - Animations
