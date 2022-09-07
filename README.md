@@ -25,8 +25,8 @@
 - Functions
 - Gradients
 - Shadows - DONE
-- Transforms
 - Transitions
+- Transforms
 - Animations
 - Images
 - Variables
