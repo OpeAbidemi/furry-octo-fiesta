@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --slow: all .4s ease-in-out;
+            --primary: rgb(30, 60, 60);
+            --secondary: rgb(40, 75, 120);
+            --defaultFamily: "Arial";
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            font-family: var(--defaultFamily);
+        }
+
+        .box {
+            background-color: var(--primary);
+            transition: var(--slow);
+        }
+
+        .box:hover {
+            background-color: var(--secondary);
+        }
+
+        .box2 {
+            background-color: var(--secondary);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+</body>
+</html>
